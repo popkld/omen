@@ -1,3 +1,737 @@
--- This script was generated using the MoonVeil Obfuscator v1.4.5 [https://moonveil.cc]
-local y,oc,gb,ue,fe,Wa=getmetatable,type,bit32.bxor,pairs local bd,Oe,R,zd,U,Le,_a,Ja,za,l_,rb,Qc,xf,ta,ba,Ib,Va,ic,ye,ub,nd,Fe,Qf,nf,Bc,pe,wa,Bf,i_,Oc,Qd,ia,Jc,ib,Gb,Jd,Xe,Ea,yb,Hb,r_,nb,Ob,v;U=(getfenv());r_,Qc,ye=(string.char),(string.byte),(bit32 .bxor);nf=function(Qb,qe)local Af,Fd,Td,fb,Re,Ed,Lb,Ne;Ne,Af={},function(Bb,vc,Hf)Ne[Bb]=gb(vc,56405)-gb(Hf,40235)return Ne[Bb]end;Ed=Ne[-31505]or Af(-31505,108128,9240)while Ed~=36890 do if Ed>=13213 then if Ed<=22806 then if Ed>13213 then return Fd else if(Td>=0 and fb>Re)or((Td<0 or Td~=Td)and fb<Re)then Ed=22806 else Ed=2500 end end else Fd='';Re,Ed,Td,fb=(#Qb-1)+201,5724,1,201 end elseif Ed>=5724 then if Ed>5724 then fb=fb+Td;Lb=fb if fb~=fb then Ed=Ne[-19687]or Af(-19687,29990,52598)else Ed=13213 end else Lb=fb if Re~=Re then Ed=Ne[3108]or Af(3108,8960,15124)else Ed=13213 end end else Fd,Ed=Fd..r_(ye(Qc(Qb,(Lb-201)+1),Qc(qe,(Lb-201)%#qe+1))),Ne[-26759]or Af(-26759,62147,40219)end end end;yb=(select);Le=(function(...)return{[1]={...},[2]=yb('#',...)}end);ub=((function()local function Od(u_,ka,Za)if ka>Za then return end return u_[ka],Od(u_,ka+1,Za)end return Od end)());Fe,l_=(string.gsub),(string.char);bd=(function(hb)hb=Fe(hb,'[^ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=]','')return(hb:gsub('.',function(ua)if(ua=='=')then return''end local uc,f_='',(('ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/'):find(ua)-1)for o_=6,1,-1 do uc=uc..(f_%2^o_-f_%2^(o_-1)>0 and'1'or'0')end return uc end):gsub('%d%d%d?%d?%d?%d?%d?%d?',function(D)if(#D~=8)then return''end local pa=0 for Ve=1,8 do pa=pa+(D:sub(Ve,Ve)=='1'and 2^(8-Ve)or 0)end return l_(pa)end))end);Jd,Ib,ia,Xe,i_,pe,Bc,xf=U[nf('\221rj\199h\127','\174\6\24')][nf('\4\192\160\16\205\187','q\174\208')],U[nf('\134\192j\156\218\127','\245\180\24')][nf('Y_H','*')],U[nf('b\169\215x\179\194','\17\221\165')][nf('\231\160\241\188','\133\217')],U[nf('p\248f\162 ','\18\145')][nf('\156D\210\153Q\206','\240\55\186')],U[nf('\181]\163\a\229','\215\52')][nf('kB\17pW\r','\25\49y')],U[nf('\200\227\222\185\152','\170\138')][nf('\157\253\145\248','\255\156')],U[nf('\150\1\128\f\135','\226\96')][nf('\144\251\17\144\245\v','\243\148\127')],{};Qd=(function(ca)local na=xf[ca]if not(na)then else return na end local Gf,K,k,xe,kb=Xe(1,11),Xe(1,5),1,{},''while k<=#ca do local xa=ia(ca,k);k=k+1 for dc=229,(8)+228 do local sb=nil if pe(xa,1)~=0 then if not(k<=#ca)then else sb=Ib(ca,k,k);k=k+1 end else if not(k+1<=#ca)then else local Mf=Jd(nf('\175\216\163','\145'),ca,k);k=k+2 local w_,Lc=#kb-i_(Mf,5),pe(Mf,(K-1))+3;sb=Ib(kb,w_,w_+Lc-1)end end xa=i_(xa,1)if sb then xe[#xe+1]=sb;kb=Ib(kb..sb,-Gf)end end end local Qa=Bc(xe);xf[ca]=Qa return Qa end);Jc=(function()local Wd,Dd,ff,Se,W,gd,z,Me,Te,Tc,we,Zc=U[nf('Z\206L\148\n','8\167')][nf('\135T\138^','\229,')],U[nf('\183\b\161R\231','\213a')][nf('\169\211\165\214','\203\178')],U[nf('P\193F\155\0','2\168')][nf('FKV','$')],U[nf('\239v\249,\191','\141\31')][nf('\211m\0\214x\28','\191\30h')],U[nf('\167\247\177\173\247','\197\158')][nf('\221\at\198\18h','\175t\28')],U[nf('\182d\153\172~\140','\197\16\235')][nf('24#','A')],U[nf('\185\57\236\163#\249','\202M\158')][nf('jryx','\26\19')],U[nf('\222\220B\196\198W','\173\168\48')][nf('\19)\253\a$\230','fG\141')],U[nf('T\173\245N\183\224',"\'\217\135")][nf('\158\137\156','\236')],U[nf('\248\0\238\r\233','\140a')][nf('\185\248\170\242','\201\153')],U[nf('9\209/\220(','M\176')][nf('Wz4Cw/','\"\20D')],U[nf('\28\172\n\161\r','h\205')][nf('\208\55\3\220+\4','\185Yp')]local function Xd(tb,Fa,Be,Jf,da)local oa,yc,Ua,zc=tb[Fa],tb[Be],tb[Jf],tb[da]local Ie;oa=Dd(oa+yc,4294967295);Ie=Wd(zc,oa);zc=Dd(ff(Se(Ie,16),W(Ie,16)),4294967295);Ua=Dd(Ua+zc,4294967295);Ie=Wd(yc,Ua);yc=Dd(ff(Se(Ie,12),W(Ie,20)),4294967295);oa=Dd(oa+yc,4294967295);Ie=Wd(zc,oa);zc=Dd(ff(Se(Ie,8),W(Ie,24)),4294967295);Ua=Dd(Ua+zc,4294967295);Ie=Wd(yc,Ua);yc=Dd(ff(Se(Ie,7),W(Ie,25)),4294967295);tb[Fa],tb[Be],tb[Jf],tb[da]=oa,yc,Ua,zc return tb end local cc,Sa={0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0},{0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0}local wd=function(Na,be,I)cc[1],cc[2],cc[3],cc[4]=3453306568,2305542746,3447113128,986856438 for yf=122,(8)+121 do cc[(yf-121)+4]=Na[(yf-121)]end cc[13]=be for fd=223,(3)+222 do cc[(fd-222)+13]=I[(fd-222)]end for la=58,(16)+57 do Sa[(la-57)]=cc[(la-57)]end for Df=80,(10)+79 do Xd(Sa,1,5,9,13);Xd(Sa,2,6,10,14);Xd(Sa,3,7,11,15);Xd(Sa,4,8,12,16);Xd(Sa,1,6,11,16);Xd(Sa,2,7,12,13);Xd(Sa,3,8,9,14);Xd(Sa,4,5,10,15)end for zb=6,(16)+5 do cc[(zb-5)]=Dd(cc[(zb-5)]+Sa[(zb-5)],4294967295)end return cc end local function cf(Hc,P,L,ga,Xc)local A=#ga-Xc+1 if not(A<64)then else local ab=gd(ga,Xc);ga=ab..Te(nf('\29','\29'),64-A);Xc=1 end U[nf('n\23\197j\22\194','\15d\182')](#ga>=64)local Vb,qc=Tc(Me(nf('w\31uA\236\164\247c\n\181\216\19\54\56\5b\127\31uA\236\164\247c\n\181\216\19\54\56\5b\127','KVA\b\216\237\195*>\252\236Z\2q1+'),ga,Xc)),wd(Hc,P,L)for X=6,(16)+5 do Vb[(X-5)]=Wd(Vb[(X-5)],qc[(X-5)])end local tc=z(nf('\"Q\17\143\246\194_\170j\207\157\190\15z\150b*Q\17\143\246\194_\170j\207\157\190\15z\150b*','\30\24%\198\194\139k\227^\134\169\247;3\162+'),we(Vb))if not(A<64)then else tc=gd(tc,1,A)end return tc end local function pd(Fc)local bf=''for ge=79,(#Fc)+78 do bf=bf..Fc[(ge-78)]end return bf end local function ae(Rc,yd,Hd,ud)local Ke,fc,Jb,Pd=Tc(Me(nf("/\200\229\177\134\232\168\189\'\200\229\177\134\232\168\189\'",'\19\129\209\248\178\161\156\244'),Rc)),Tc(Me(nf('n\222c\27\163\30f','R\151W'),Hd)),{},1 while Pd<=#ud do Zc(Jb,cf(Ke,yd,fc,ud,Pd));Pd=Pd+64;yd=yd+1 end return pd(Jb)end return function(Ia,he,of)return ae(of,0,he,Ia)end end)();Ja=(function()local Z,qa,Bd,pf,d_,if_,Sc,Kc,G,Q,Lf=U[nf('\233\151\255\205\185','\139\254')][nf('1R<H','S<')],U[nf('djr04','\6\3')][nf('@\209M\219','\"\169')],U[nf('CQU\v\19','!8')][nf('5\182\240.\163\236','G\197\152')],U[nf('$\195\50\153t','F\170')][nf('\245\224|\240\245\96','\153\147\20')],U[nf('\227_\245\5\179','\129\54')][nf('\143\229\131\224','\237\132')],U[nf('\200#\222y\152','\170J')][nf('\14\3\30','l')],U[nf('Y\197O\200H','-\164')][nf('\146\131~\158\159y','\251\237\r')],U[nf('\215]\193P\198','\163<')][nf('\142\218\52\154\215/','\251\180D')],U[nf("\144=\247\138\'\226",'\227I\133')][nf('\204\219\206','\190')],U[nf('C\135UY\157@',"0\243\'")][nf(')\3+\25','Jk')],U[nf('\158-\27\132\55\14','\237Yi')][nf('\15\0\25\28','my')]local function Uc(Je,S)local qf,de=Bd(Je,S),pf(Je,32-S)return d_(if_(qf,de),4294967295)end local J=function(Eb)local b_={1116352408,1899447441,3049323471,3921009573,961987163,1508970993,2453635748,2870763221,3624381080,310598401,607225278,1426881987,1925078388,2162078206,2614888103,3248222580,3835390401,4022224774,264347078,604807628,770255983,1249150122,1555081692,1996064986,2554220882,2821834349,2952996808,3210313671,3336571891,3584528711,113926993,338241895,666307205,773529912,1294757372,1396182291,1695183700,1986661051,2177026350,2456956037,2730485921,2820302411,3259730800,3345764771,3516065817,3600352804,4094571909,275423344,430227734,506948616,659060556,883997877,958139571,1322822218,1537002063,1747873779,1955562222,2024104815,2227730452,2361852424,2428436474,2756734187,3204031479,3329325298}local function Pa(We)local wf=#We local N=wf*8;We=We..nf('\218','Z')local m=64-((wf+9)%64)if not(m~=64)then else We=We..G(nf('\146','\146'),m)end We=We..Q(d_(Bd(N,56),255),d_(Bd(N,48),255),d_(Bd(N,40),255),d_(Bd(N,32),255),d_(Bd(N,24),255),d_(Bd(N,16),255),d_(Bd(N,8),255),d_(N,255))return We end local function Ya(wb)local Ud={}for ma=105,(#wb)+104,64 do Sc(Ud,wb[nf('\223\217\206','\172')](wb,(ma-104),(ma-104)+63))end return Ud end local function Vd(Pf,Rf)local O={}for jc=126,(64)+125 do if(jc-125)<=16 then O[(jc-125)]=if_(pf(Lf(Pf,((jc-125)-1)*4+1),24),pf(Lf(Pf,((jc-125)-1)*4+2),16),pf(Lf(Pf,((jc-125)-1)*4+3),8),Lf(Pf,((jc-125)-1)*4+4))else local ya,le=qa(Uc(O[(jc-125)-15],7),Uc(O[(jc-125)-15],18),Bd(O[(jc-125)-15],3)),qa(Uc(O[(jc-125)-2],17),Uc(O[(jc-125)-2],19),Bd(O[(jc-125)-2],10));O[(jc-125)]=d_(O[(jc-125)-16]+ya+O[(jc-125)-7]+le,4294967295)end end local me,od,Yb,_c,ed,zf,Ce,vf=Kc(Rf)for jb=253,(64)+252 do local hd,lf=qa(Uc(ed,6),Uc(ed,11),Uc(ed,25)),qa(d_(ed,zf),d_(Z(ed),Ce))local _e,Ta,Ze=d_(vf+hd+lf+b_[(jb-252)]+O[(jb-252)],4294967295),qa(Uc(me,2),Uc(me,13),Uc(me,22)),qa(d_(me,od),d_(me,Yb),d_(od,Yb))local Ub=d_(Ta+Ze,4294967295);vf=Ce;Ce=zf;zf=ed;ed=d_(_c+_e,4294967295);_c=Yb;Yb=od;od=me;me=d_(_e+Ub,4294967295)end return d_(Rf[1]+me,4294967295),d_(Rf[2]+od,4294967295),d_(Rf[3]+Yb,4294967295),d_(Rf[4]+_c,4294967295),d_(Rf[5]+ed,4294967295),d_(Rf[6]+zf,4294967295),d_(Rf[7]+Ce,4294967295),d_(Rf[8]+vf,4294967295)end Eb=Pa(Eb)local Gc,rd,Mb=Ya(Eb),{1779033703,3144134277,1013904242,2773480762,1359893119,2600822924,528734635,1541459225},''for uf,ze in U[nf('\220\252\23\220\254\5','\181\140v')](Gc)do rd={Vd(ze,rd)}end for ra,Mc in U[nf('\0\239\219\0\237\201','i\159\186')](rd)do Mb=Mb..Q(d_(Bd(Mc,24),255));Mb=Mb..Q(d_(Bd(Mc,16),255));Mb=Mb..Q(d_(Bd(Mc,8),255));Mb=Mb..Q(d_(Mc,255))end return Mb end return J end)()local ld,T,c,Nc,mb,Nd,re_,mf,B,Xa,Of,Ca,ja,xb,a_,va,Ye,_b,Ee,Nf,sa,pb,_d,hc,Nb,vd,jf,jd,Pb,Vc=U[nf('\201\239\205\243','\189\150')],U[nf('\150%\135*\138','\230F')],U[nf('\143i\152t\152','\234\27')],U[nf('u{\200\96lv\195g','\1\20\166\21')],U[nf('\150\177\19\146\176\20','\247\194\96')],U[nf('\28\250k\n\252s','o\159\a')],U[nf('N\6\162o08\\\23\183\96\57)','=c\214\2UL')],U[nf('\\V\255FL\234','/\"\141')][nf('y3\139r=\141','\31\\\249')],U[nf('F\149f\\\143s','5\225\20')][nf('\145C{\133N\96','\228-\v')],U[nf('\184_\206\162E\219','\203+\188')][nf('tre','\a')],U[nf('\246\31\195\236\5\214','\133k\177')][nf('\2\178\20\174','\96\203')],U[nf('\162$\220\184>\201','\209P\174')][nf('\209\194\211\216','\178\170')],U[nf('bdtis','\22\5')][nf('\161\201\186\195','\204\166')],U[nf('\228f\242k\245','\144\a')][nf('w\160d\170','\a\193')],U[nf('K\148]\153Z','?\245')][nf('\194#\216\192%\216','\161Q\189')],U[nf('ZwLzK','.\22')][nf('%\249\127)\229x','L\151\f')],U[nf('\"\23\52\26\51','Vv')][nf('\19\19\160\19\29\186','p|\206')],U[nf('=\238\180Z+\245\175[;','^\129\198\53')][nf('\252aA\254gA','\159\19$')],U[nf('w\180\129\194a\175\154\195q','\20\219\243\173')][nf('\b|\20y\21','q\21')],U[nf('*0a\3<+z\2,','I_\19l')][nf('N\245\4I\253\18','<\144w')],U[nf('\138E\234\187\156^\241\186\140','\233*\152\212')][nf('}\25q\6{','\30u')],U[nf('B\149#C\149\57S','%\240W')],U[nf('\196\185\210\227\148','\166\208')][nf('\153\148\137','\251')],U[nf('\146\233\132\179\194','\240\128')][nf('E~Ht',"\'\6")],U[nf('\214\f\192V\134','\180e')][nf('\205\201\193\204','\175\168')],U[nf('E\17SK\21',"\'x")][nf('\189\140\186\139\171','\223\248')],U[nf('\141\250\155\160\221','\239\147')][nf('\172\216\210\183\205\206','\222\171\186')],U[nf('\255\5\233_\175','\157l')][nf('\136\228\185\141\241\165','\228\151\209')],U[nf('l\228z\190<','\14\141')][nf('V2\131A+\148G','3J\247')],{[33071]={},[33918]={},[34647]={{3,1,true},{0,10,true},{0,0,false},{2,6,false},{0,2,false},{3,10,true},{4,7,false},{6,2,false},{0,2,false},{4,1,false},{9,3,true},{4,1,true},{0,2,false},{0,2,false},{0,10,true},{2,6,false},{0,2,false},{0,6,false},{6,4,true},{2,7,true},{0,7,true},{3,1,false},{9,7,false},{0,0,false},{3,8,false},{2,1,false},{0,3,false},{3,10,true},{0,2,false},{6,4,true},{0,2,false},{2,3,true},{6,6,true},{3,8,false},{3,2,false},{0,3,true},{0,2,false},{6,5,false},{0,2,false},{0,2,false},{0,2,false},{6,8,true},{6,6,false},{3,7,true},{4,2,false},{6,3,true},{6,8,false},{9,5,true},{0,2,false},{2,5,true},{6,6,true},{6,5,true},{9,2,false},{0,2,false},{0,3,false},{3,10,false},{0,10,true},{3,9,false},{0,2,false},{0,0,false},{2,8,true},{0,2,false},{6,7,false},{9,1,true},{2,8,false},{2,7,false},{3,1,true},{2,2,false},{0,8,false},{2,6,false},{4,2,false},{9,6,false},{6,3,false},{9,5,false},{6,5,true},{9,5,false},{3,7,true},{6,5,false},{2,5,true},{0,2,false},{9,2,false},{6,2,false},{3,1,true},{4,6,false},{4,3,true},{0,10,true},{9,6,false},{0,5,true},{6,1,false},{2,5,true},{2,8,true},{0,10,true},{2,2,true},{2,2,false},{6,6,true},{0,2,false},{0,2,true},{3,4,false},{0,2,true},{6,3,false},{2,1,true},{0,2,true},{2,5,false},{0,4,true},{9,6,false},{3,6,false},{0,2,false},{9,7,true},{3,2,true},{9,6,false},{4,1,false},{0,8,false},{6,1,false},{4,8,false},{2,4,true},{3,5,false},{0,2,false},{0,2,false},{0,1,false},{2,2,true},{9,7,true},{0,10,true},{2,4,false},{2,7,true},{6,3,true},{4,8,false},{6,5,true},{3,6,true},{6,6,true},{2,1,false},{0,8,false},{3,6,false},{9,6,false},{6,5,false},{0,2,true},{0,2,false},{4,5,true},{4,2,false},{9,6,true},{4,5,true},{0,8,false},{0,10,true},{9,2,false},{3,2,true},{2,8,true},{2,2,false},{3,8,true},{4,7,false},{0,6,false},{0,2,false},{2,2,false},{0,2,false},{2,7,true},{4,2,false},{6,4,false},{3,6,false},{3,3,true},{0,2,true},{2,2,false},{6,7,false},{0,10,true},{0,10,true},{3,4,false},{6,5,true},{0,2,false},{0,8,false},{0,2,false},{9,4,true},{4,8,false},{0,1,true},{0,4,false},{0,6,true},{0,6,false},{9,8,false},{0,4,false},{9,3,true},{2,2,true},{3,2,true},{6,3,false},{6,1,true},{2,7,true},{0,6,true},{0,4,false},{2,2,false},{9,3,false},{6,10,true},{0,2,false},{0,7,true},{0,4,true},{0,5,false},{2,2,true},{0,2,false},{2,8,true},{0,8,false},{0,5,false},{2,2,false},{0,7,false},{4,1,true},{4,3,false},{4,10,false},{2,2,false},{3,4,true},{3,2,false},{2,2,false},{3,3,false},{2,7,true},{3,4,false},{0,10,true},{3,5,true},{6,4,false},{9,5,false},{6,2,true},{2,10,false},{0,2,false},{3,8,true},{0,4,false},{2,1,true},{2,2,false},{3,3,true},{4,8,true},{0,8,false},{0,5,false},{0,8,true},{2,2,false},{2,2,true},{3,10,false},{0,6,true},{4,7,true},{0,0,false},{0,2,false},{3,5,false},{3,7,true},{9,8,true},{3,7,true},{2,2,true},{2,2,false},{2,6,false},{9,6,false},{2,2,true},{3,10,true},{2,2,false},{2,2,true},{0,2,false},{4,8,false},{6,3,true},{4,10,false},{4,3,true},{2,2,true},{9,10,true},{4,7,false},{0,2,false},{0,8,false},{2,7,false},{9,10,false},{0,1,true},{2,6,true}}}local Pc=(function(Kf)local n_=Vc[33071][Kf]if n_ then return n_ end local td=1 local function Cb()local bb,Ab,mc,Ka,kf,kc,ec,gf,Gd,Tb,Rd,Ga,Ld,g,Cf,De,Zd,id,cb,ve,Ha,Yc,ie,sc,fa_,xc,p,Id,Qe,Ad,cd,Sb;cd,Yc=function(He,Zb,Dc)Yc[Zb]=gb(Dc,42948)-gb(He,29369)return Yc[Zb]end,{};ve=Yc[30432]or cd(54133,30432,75949)repeat if ve<31511 then if ve>=14121 then if ve>22428 then if ve<=27849 then if ve>=24427 then if ve<25360 then if ve<=24427 then p=B(nf('{','9'),Kf,td);ve,td=Yc[-5775]or cd(38446,-5775,80898),td+1 else cb=Sb if bb~=bb then ve=17347 else ve=Yc[-32450]or cd(13152,-32450,102544)end end elseif ve>25428 then Zd=Zd+Sb;bb=Zd if Zd~=Zd then ve=Yc[16863]or cd(53417,16863,26455)else ve=50147 end elseif ve<=25360 then bb=Zd if Ab~=Ab then ve=Yc[1749]or cd(6135,1749,9237)else ve=Yc[29105]or cd(58641,29105,130127)end else ve,Sb=Yc[-21161]or cd(54537,-21161,7273),hc(bb,823880372)continue end elseif ve<=23455 then if ve<=22911 then if ve>22786 then Rd,ve=kc,Yc[-22866]or cd(40238,-22866,123127)continue else Id=xc if cb~=cb then ve=Yc[14430]or cd(30664,14430,52993)else ve=Yc[25311]or cd(38008,25311,102989)end end else ve,Ab=Yc[-9548]or cd(14931,-9548,106766),false end else if kc then ve=Yc[1735]or cd(7849,1735,103797)continue end ve=Yc[-234]or cd(22939,-234,59428)end elseif ve<28692 then if ve>28263 then p=Zd[(g-166)];Qe=p[51482]if(Qe==3)then ve=Yc[20988]or cd(45072,20988,71358)continue else ve=Yc[6445]or cd(14005,6445,63252)continue end ve=Yc[-14741]or cd(12864,-14741,112920)elseif ve<=28236 then Ad,ve=Tb,Yc[17453]or cd(11843,17453,52314)continue else cb=cb+Id;g=cb if cb~=cb then ve=61133 else ve=9801 end end elseif ve>=30315 then if ve>30315 then Cf=id;ec=_d(ec,jd(Nb(Cf,127),(Ld-34)*7))if not vd(Cf,128)then ve=Yc[7295]or cd(47554,7295,78948)continue end ve=Yc[16702]or cd(34894,16702,126328)else ve,De=Yc[23225]or cd(35328,23225,91358),nil end elseif ve>28692 then Ka=0;Sb,ve,Ab,Zd=1,Yc[-725]or cd(17306,-725,13303),178,174 else mc=B(nf('=','\127'),Kf,td);td,ve=td+1,1408 end elseif ve>19465 then if ve<20721 then if ve>=20421 then if ve>20421 then Id[(De-48)],ve=Cb(),Yc[16930]or cd(41652,16930,79531)else Ad=Ad+Ha;Ld=Ad if Ad~=Ad then ve=Yc[-2485]or cd(21676,-2485,3240)else ve=Yc[8178]or cd(34403,8178,75608)end end elseif ve<=20037 then g=cb if Gd~=Gd then ve=43738 else ve=Yc[15130]or cd(56438,15130,25480)end else if(Gd>=0 and xc>cb)or((Gd<0 or Gd~=Gd)and xc<cb)then ve=Yc[-5962]or cd(1418,-5962,32067)else ve=47642 end end elseif ve<22040 then if ve>20721 then g=B(nf('c\22k','_'),Kf,td);td,ve=td+4,Yc[-18017]or cd(64685,-18017,32217)else ve,Ld=Yc[32719]or cd(50549,32719,102740),hc(id,100)continue end elseif ve>22040 then ve,De=Yc[-11756]or cd(24899,-11756,31135),Rd else Ad,Tb=Nb(jf(g,8),16777215),nil;Tb=if Ad<8388608 then Ad else Ad-16777216;ve,ec[31192]=Yc[1461]or cd(7748,1461,28318),Tb end elseif ve<17347 then if ve>15400 then if ve<=16475 then ve,p[30376]=Yc[15311]or cd(22389,15311,107627),xc[p[30606]+1]else p[30376],ve=xc[p[31192]+1],Yc[-3613]or cd(17929,-3613,111959)end elseif ve>14250 then Tb=B(nf('h\29\96','T'),Kf,td);ve,td=Yc[28701]or cd(10095,28701,21452),td+4 elseif ve<=14121 then Tb=Ad;ec[30606]=Tb;va(Zd,{});ve=Yc[6231]or cd(56429,6231,29782)else De=g if p~=p then ve=Yc[-28907]or cd(16831,-28907,103953)else ve=2271 end end elseif ve<18915 then if ve>17347 then Ab,ve=Gd,Yc[29383]or cd(8171,29383,101622)else Sb,ve=nil,61159 end elseif ve<19169 then p=g;bb=_d(bb,jd(Nb(p,127),(Id-72)*7))if(not vd(p,128))then ve=Yc[3327]or cd(2639,3327,14997)continue else ve=Yc[-12467]or cd(27752,-12467,38115)continue end ve=Yc[156]or cd(14116,156,65079)elseif ve<=19169 then ve,sc,ie=Yc[-21455]or cd(20060,-21455,2877),Ga,nil else ve,Id=41227,hc(g,1261056824)continue end elseif ve<=5501 then if ve<=3268 then if ve<2271 then if ve>1408 then ve,Rd=Yc[-2220]or cd(42469,-2220,18755),Le''continue elseif ve>=940 then if ve>940 then ve,ie=Yc[-1824]or cd(52593,-1824,22373),hc(mc,100)continue else Id=Id+p;Qe=Id if Id~=Id then ve=Yc[-8573]or cd(8436,-8573,51168)else ve=52682 end end else ve,Gd=Yc[9825]or cd(6584,9825,18572),nil end elseif ve>=2743 then if ve<3183 then if(De==3)then ve=Yc[17949]or cd(50815,17949,109850)continue else ve=Yc[-7550]or cd(20144,-7550,16290)continue end ve=Yc[-10312]or cd(53158,-10312,114360)elseif ve<=3183 then gf,ve,Ga=fa_,35856,nil else if Qe==0 then ve=Yc[-9816]or cd(61870,-9816,7962)continue elseif Qe==5 then ve=Yc[-8654]or cd(62717,-8654,114044)continue elseif(Qe==7)then ve=Yc[-27997]or cd(2904,-27997,103518)continue else ve=Yc[9653]or cd(19818,9653,49618)continue end ve=Yc[21837]or cd(17334,21837,108854)end elseif ve>2271 then kc=B(nf('\226\186','\222'),Kf,td);ve,td=22911,td+8 else if(Qe>=0 and g>p)or((Qe<0 or Qe~=Qe)and g<p)then ve=65231 else ve=Yc[-25195]or cd(57511,-25195,17953)end end elseif ve<=5117 then if ve<3543 then if ve<=3385 then Tb=B(nf('\173','\206')..ec,Kf,td);td,ve=td+ec,28236 else ve,p[30376]=Yc[-22530]or cd(19077,-22530,111067),xc[p[52532]+1]end elseif ve<=3748 then if ve<=3543 then ve,cb=Yc[24968]or cd(24761,24968,110206),hc(Gd,823880372)continue else ve,Rd=5931,Le(Ad)continue end else bb=Sb;xc=a_(bb);ve,Gd,cb,Id=33344,(bb)+151,152,1 end elseif ve<=5359 then if ve>5206 then ec=ec+Tb;Ha=ec if ec~=ec then ve=Yc[26417]or cd(19318,26417,101457)else ve=6871 end else xc=xc+Gd;Id=xc if xc~=xc then ve=Yc[5735]or cd(15287,5735,2982)else ve=Yc[631]or cd(16861,631,9704)end end else if(Id>=0 and cb>Gd)or((Id<0 or Id~=Id)and cb<Gd)then ve=43738 else ve=28584 end end elseif ve<=9795 then if ve>=9218 then if ve>=9316 then if ve>9406 then if(Qe==1)then ve=Yc[-9795]or cd(62504,-9795,3377)continue else ve=Yc[-17694]or cd(8769,-17694,107512)continue end ve=Yc[27323]or cd(57430,27323,120598)elseif ve>9316 then Gd,ve=kc,Yc[-23129]or cd(54598,-23129,19491)continue else p[30376]=xc[Pb(p[30606],0,24)+1];p[43845],ve=Pb(p[30606],31,1)==1,Yc[-1489]or cd(65080,-1489,118176)end elseif ve<=9218 then cb=xc;Ka=_d(Ka,jd(Nb(cb,127),(bb-174)*7))if(not vd(cb,128))then ve=Yc[24196]or cd(21372,24196,8184)continue else ve=Yc[7570]or cd(44019,7570,123351)continue end ve=Yc[8539]or cd(184,8539,30990)else ve=Yc[-17209]or cd(2421,-17209,30948)continue end elseif ve<=6871 then if ve<6518 then De,ve=ub(Rd[1],1,Rd[2]),Yc[13886]or cd(43527,13886,66779)elseif ve>6518 then if(Tb>=0 and ec>Ad)or((Tb<0 or Tb~=Tb)and ec<Ad)then ve=Yc[-5514]or cd(38390,-5514,98001)else ve=Yc[23048]or cd(39462,23048,117495)end else ec=kc if ec==0 then ve=Yc[-16519]or cd(18308,-16519,40095)continue else ve=Yc[-20368]or cd(51255,-20368,119171)continue end ve=Yc[-13969]or cd(15469,-13969,21164)end else kf,ve=hc(Ka,823880372),Yc[27156]or cd(60034,27156,126557)continue end elseif ve<=12678 then if ve<=12505 then if ve>=11455 then if ve<=11455 then id,ve=nil,Yc[-32022]or cd(37029,-32022,83603)else mc,kf,ve=ie,nil,30055 end else if(Id>=0 and cb>Gd)or((Id<0 or Id~=Id)and cb<Gd)then ve=61133 else ve=Yc[15982]or cd(54444,15982,124110)end end else Ld=Ad if Tb~=Tb then ve=Yc[3536]or cd(12279,3536,17761)else ve=Yc[-11511]or cd(4697,-11511,19302)end end elseif ve<=13086 then if ve>12976 then fa_,ve=hc(gf,100),3183 continue else Rd,ve=Le(nil),42644 end else ve,p[30376]=Yc[-22511]or cd(37438,-22511,72110),xc[p[33179]+1]end elseif ve<47642 then if ve<40096 then if ve<35485 then if ve>=33940 then if ve<35037 then if ve<=33940 then Ld,ve=nil,Yc[-20009]or cd(65094,-20009,126519)else kc,ve=hc(ec,823880372),Yc[-20397]or cd(64824,-20397,3891)continue end elseif ve<=35037 then Rd=De;Gd=_d(Gd,jd(Nb(Rd,127),(Qe-49)*7))if not vd(Rd,128)then ve=Yc[-9115]or cd(35027,-9115,83003)continue end ve=Yc[23542]or cd(63134,23542,8215)else Rd,ve=nil,2595 end elseif ve>=33344 then if ve>33344 then ve,Id=21780,nil else g=cb if Gd~=Gd then ve=Yc[-30418]or cd(57328,-30418,80850)else ve=Yc[-3801]or cd(1157,-3801,15169)end end elseif ve<=31511 then ve,p=55858,hc(Qe,100)continue else id=Ld;kc=_d(kc,jd(Nb(id,127),(Ha-230)*7))if not vd(id,128)then ve=Yc[2551]or cd(37290,2551,94905)continue end ve=Yc[29185]or cd(36036,29185,111784)end elseif ve>36067 then if ve>38519 then if(Ab)then ve=Yc[-9047]or cd(3113,-9047,32235)continue else ve=Yc[-17259]or cd(27537,-17259,48231)continue end ve=Yc[18317]or cd(22945,18317,20284)elseif ve>38004 then ve=Yc[6297]or cd(38532,6297,107780)continue else p[30376]=Pb(p[30606],0,1)==1;p[43845],ve=Pb(p[30606],31,1)==1,Yc[18074]or cd(23928,18074,109152)end elseif ve>=35856 then if ve<=36059 then if ve>35856 then Gd=0;ve,p,Id,g=Yc[-24547]or cd(1894,-24547,119707),1,49,53 else sc=B(nf('\254','\188'),Kf,td);td,ve=td+1,40440 end else Ha=ec if Ad~=Ad then ve=Yc[-11272]or cd(36025,-11272,83970)else ve=6871 end end elseif ve>35485 then if(Ha>=0 and Ad>Tb)or((Ha<0 or Ha~=Ha)and Ad<Tb)then ve=Yc[11609]or cd(50012,11609,102648)else ve=11455 end else xc,ve=nil,62282 end elseif ve<=42790 then if ve<41227 then if ve>40440 then Ad,ve=hc(Tb,1261056824),Yc[748]or cd(34138,748,100552)continue elseif ve>40181 then Ga,ve=hc(sc,100),Yc[23993]or cd(65419,23993,32727)continue elseif ve<=40096 then ve,xc=Yc[15032]or cd(7956,15032,13931),hc(cb,100)continue else p,ve=nil,51483 end elseif ve>=42401 then if ve>=42644 then if ve<=42644 then ve,kc=47017,nil else ec[33179]=Nb(jf(g,8),255);ec[6789]=Nb(jf(g,16),255);ve,ec[52532]=Yc[7028]or cd(27859,7028,56579),Nb(jf(g,24),255)end else kc=0;ve,Ad,ec,Tb=36067,234,230,1 end elseif ve>41227 then ve,id=30547,hc(Cf,100)continue else g=Id;p=Nb(g,255);Qe=Vc[34647][p+1];De,Rd,kc=Qe[1],Qe[2],Qe[3];ec={[43845]=0,[8027]=0,[33648]=nil,[1438]=0,[30376]=0,[33179]=0,[17180]=0,[63564]=p,[44424]=0,[31192]=0,[51482]=Rd,[6789]=0,[39919]=0,[52532]=0,[30606]=0};va(Zd,ec)if De==0 then ve=Yc[23618]or cd(28557,23618,25502)continue elseif(De==2)then ve=Yc[-7755]or cd(57040,-7755,119560)continue else ve=Yc[32345]or cd(25690,32345,34398)continue end ve=Yc[-20145]or cd(60314,-20145,21060)end elseif ve>45892 then if ve<47017 then g,ve=hc(p,100),18915 continue elseif ve>47017 then De=p[30606];Rd,kc=jf(De,30),Nb(jf(De,20),1023);p[30376]=xc[kc+1];p[39919]=Rd if Rd==2 then ve=Yc[-2898]or cd(21587,-2898,112269)continue elseif(Rd==3)then ve=Yc[7920]or cd(49607,7920,71572)continue else ve=Yc[3613]or cd(47041,3613,66719)continue end ve=Yc[-30375]or cd(5821,-30375,124451)else ec=0;Ad,Tb,Ha,ve=34,38,1,12678 end elseif ve>=44861 then if ve>45406 then if Qe==8 then ve=Yc[20334]or cd(10520,20334,53043)continue elseif Qe==10 then ve=Yc[721]or cd(16638,721,54630)continue elseif Qe==9 then ve=Yc[-9880]or cd(46009,-9880,107681)continue elseif Qe==6 then ve=Yc[10518]or cd(13945,10518,21567)continue end ve=Yc[-27817]or cd(49466,-27817,79522)elseif ve>44861 then Ka=kf;Zd,Ab=a_(Ka),false;xc,ve,Sb,bb=1,25145,216,(Ka)+215 else Rd=B(nf('\0','B'),Kf,td);td,ve=td+1,Yc[10264]or cd(48895,10264,93915)end elseif ve<=43738 then cb,ve=nil,Yc[-24645]or cd(48187,-24645,130201)else ve,p[30376]=Yc[-15298]or cd(28048,-15298,23240),xc[p[8027]+1]end elseif ve<59797 then if ve<=51299 then if ve>49506 then if ve>=51237 then if ve>51237 then ec[33179]=Nb(jf(g,8),255);Ad=Nb(jf(g,16),65535);ec[44424]=Ad;Tb=nil;Tb=if Ad<32768 then Ad else Ad-65536;ve,ec[8027]=Yc[21433]or cd(46246,21433,99768),Tb else ve=Yc[25014]or cd(9405,25014,31903)continue end elseif ve<=50147 then if(Sb>=0 and Zd>Ab)or((Sb<0 or Sb~=Sb)and Zd<Ab)then ve=Yc[-24291]or cd(38011,-24291,107137)else ve=Yc[11073]or cd(30153,11073,13769)end else Ad,ve=nil,15400 end elseif ve>48372 then if ve>48608 then g=g+Qe;De=g if g~=g then ve=65231 else ve=2271 end else Sb=Sb+xc;cb=Sb if Sb~=Sb then ve=17347 else ve=62843 end end elseif ve>48057 then id=B(nf('\127','='),Kf,td);ve,td=20721,td+1 elseif ve>47642 then Ad,ve=nil,3385 else g,ve=nil,Yc[17033]or cd(17657,17033,12911)end elseif ve>55270 then if ve>=55866 then if ve<=55866 then ve,De=Yc[-16147]or cd(17364,-16147,18286),nil else cb=cb+Id;g=cb if cb~=cb then ve=Yc[19900]or cd(52974,19900,114933)else ve=5501 end end else Qe=p if Qe==4 then ve=Yc[4872]or cd(20451,4872,55246)continue elseif Qe==0 then ve=Yc[-11426]or cd(6085,-11426,105126)continue elseif Qe==6 then ve=Yc[5164]or cd(6654,5164,21421)continue elseif Qe==3 then ve=Yc[-3760]or cd(25097,-3760,8415)continue end ve=Yc[29242]or cd(13931,29242,108791)end elseif ve<=51809 then if ve<=51483 then if ve<=51404 then De,ve=ub(Rd[1],1,Rd[2]),Yc[20877]or cd(54207,20877,117923)else Qe=B(nf('P','\18'),Kf,td);ve,td=Yc[12477]or cd(13032,12477,7340),td+1 end else ve,xc[(g-151)]=Yc[3354]or cd(11624,3354,27132),De end elseif ve<=52682 then if(p>=0 and Id>g)or((p<0 or p~=p)and Id<g)then ve=Yc[-14964]or cd(52417,-14964,27531)else ve=Yc[-16304]or cd(53956,-16304,122227)end else ve,Rd=Yc[-4501]or cd(26542,-4501,7548),Le(nil)end elseif ve<62282 then if ve<61137 then if ve<=60829 then if ve>59999 then fa_,ve=nil,Yc[-26395]or cd(55306,-26395,66125)elseif ve<=59797 then ve=Yc[23895]or cd(13420,23895,62312)continue else ec=Nb(jf(De,10),1023);ve,p[1438]=Yc[-16493]or cd(10130,-16493,103626),xc[ec+1]end else cb,ve,Id,Gd=167,Yc[-32756]or cd(48193,-32756,113401),1,(Ka)+166 end elseif ve>61894 then ve=Yc[-19614]or cd(11859,-19614,125300)continue elseif ve>=61159 then if ve<=61159 then bb=0;cb,xc,Gd,ve=76,72,1,Yc[-27074]or cd(56281,-27074,107942)else ve,Rd=Yc[-21045]or cd(33133,-21045,72548),Le(hc(kc,823880372))continue end else ve,p[30376]=Yc[6718]or cd(47528,6718,69424),Pb(p[30606],0,16)end elseif ve<=64722 then if ve>=63418 then if ve<64214 then Gd=cb;Id=a_(Gd);p,Qe,g,ve=(Gd)+48,1,49,Yc[26180]or cd(36085,26180,102962)elseif ve<=64214 then gf=B(nf('\245','\183'),Kf,td);td,ve=td+1,Yc[17795]or cd(17271,17795,49960)else ec,Ad=Nb(jf(De,10),1023),Nb(jf(De,0),1023);p[1438]=xc[ec+1];p[17180],ve=xc[Ad+1],Yc[-28936]or cd(21213,-28936,22915)end elseif ve>62282 then if(xc>=0 and Sb>bb)or((xc<0 or xc~=xc)and Sb<bb)then ve=17347 else ve=39986 end else cb=B(nf('\176','\242'),Kf,td);ve,td=40096,td+1 end elseif ve<65231 then if ve>64729 then Qe=Id if g~=g then ve=Yc[7860]or cd(60310,7860,194)else ve=Yc[-21707]or cd(64913,-21707,129846)end else ve,De=35037,hc(Rd,100)continue end elseif ve>65231 then Cf=B(nf('2','p'),Kf,td);td,ve=td+1,Yc[-29763]or cd(64039,-29763,101386)else return{[12657]=gf,[4091]=mc,[3004]=sc,[16166]=Zd,[19305]=Id,[31690]=''}end until ve==47677 end local j=Cb();Vc[33071][Kf]=j return j end)local Ae=(function(t_,Kb)t_=Pc(t_)local e_=pb()local function qb(La,If)local ef=(function(...)return{...},Nd('#',...)end)local aa;aa=(function(db,M,nc)if M>nc then return end return db[M],aa(db,M+1,nc)end)local function oe(H,hf,V,te)local je,Ra,Ef,ac,ha,Oa,Xb,vb,Ue,bc,_f,md,se_,tf,Ge,ne,Rb,s_,E,Cc,Ic,q,Ec,Ma;Xb,Ge={},function(kd,ce,lc)Xb[ce]=gb(lc,15764)-gb(kd,41838)return Xb[ce]end;Oa=Xb[9936]or Ge(35116,9936,33264)while Oa~=34635 do if Oa<37626 then if Oa>17550 then if Oa<=27753 then if Oa>=23495 then if Oa<=26560 then if Oa<=24599 then if Oa>24192 then if Oa<=24530 then if Ec>203 then Oa=Xb[-32069]or Ge(34530,-32069,43216)continue else Oa=Xb[12999]or Ge(17725,12999,90417)continue end Oa=Xb[-9295]or Ge(16802,-9295,125870)else md,je=H[Ra[33179]],nil;je=ld(md)==nf('\25\177A\14\v\173@\3','\127\196/m')if(not je)then Oa=Xb[2595]or Ge(48330,2595,35167)continue else Oa=Xb[-9500]or Ge(20651,-9500,65888)continue end Oa=Xb[-29725]or Ge(51651,-29725,36424)end elseif Oa>23893 then Ef=ne if se_~=se_ then Oa=Xb[-68]or Ge(37233,-68,31802)else Oa=11913 end elseif Oa<=23495 then if(Ra[52532]==187)then Oa=Xb[-6052]or Ge(32233,-6052,49227)continue else Oa=Xb[-15009]or Ge(43858,-15009,4116)continue end Oa=Xb[3525]or Ge(54843,3525,87383)else se_=tf if bc~=bc then Oa=Xb[14404]or Ge(39798,14404,63231)else Oa=Xb[-20085]or Ge(36076,-20085,21198)end end elseif Oa>=25068 then if Oa>25068 then je,Ue,Cc=ue(je);Oa=Xb[-31830]or Ge(54156,-31830,40798)else H[Ra[33179]]=a_(Ra[30606]);ha+=1;Oa=Xb[-25154]or Ge(8684,-25154,84068)end else md,je=nil,hc(Ra[44424],37163);md=if je<32768 then je else je-65536;Ue=md;Oa,H[hc(Ra[33179],103)]=Xb[23627]or Ge(44281,23627,81553),Ue end elseif Oa>27153 then if Oa<=27339 then if Oa<=27296 then je,Ue,Cc=ue(je);Oa=Xb[22808]or Ge(27406,22808,89609)else ha+=1;Oa=Xb[-28195]or Ge(34202,-28195,75766)end else Ue,Cc=md[30376],Ra[30376];Cc=nf('Jm\148L','GK')..Cc;q='';ne,tf,bc,Oa=1,105,(#Ue-1)+105,23893 end elseif Oa<=27091 then if Oa>27085 then if(Ec>14)then Oa=Xb[4656]or Ge(37718,4656,20514)continue else Oa=Xb[-14946]or Ge(51804,-14946,68305)continue end Oa=Xb[30968]or Ge(8102,30968,101794)elseif Oa<=27036 then ne=V[ha];ha+=1;se_=ne[33179]if(se_==0)then Oa=Xb[4439]or Ge(61722,4439,75307)continue else Oa=Xb[30157]or Ge(3107,30157,84643)continue end Oa=Xb[32061]or Ge(56629,32061,86573)else H[Ra[6789]],Oa=H[Ra[33179]]-Ra[30376],Xb[8889]or Ge(25759,8889,100043)end else if(Ec>56)then Oa=Xb[-15950]or Ge(28369,-15950,89042)continue else Oa=Xb[-22566]or Ge(18031,-22566,74188)continue end Oa=Xb[8898]or Ge(15518,8898,110282)end elseif Oa>20123 then if Oa>21732 then if Oa<22150 then md=hf[Ra[30376]+1];je=md[4091];Ue=a_(je);H[Ra[33179]]=qb(md,Ue);Cc,tf,q,Oa=242,1,(je)+241,6709 elseif Oa<=22150 then if(H[Ra[33179]]<H[Ra[30606]])then Oa=Xb[22123]or Ge(53737,22123,57542)continue else Oa=Xb[-15082]or Ge(64644,-15082,71484)continue end Oa=Xb[24732]or Ge(50458,24732,91254)else if(Ec>61)then Oa=Xb[4935]or Ge(41399,4935,24420)continue else Oa=Xb[3795]or Ge(25652,3795,89751)continue end Oa=Xb[8650]or Ge(54206,8650,88490)end elseif Oa>21483 then tf[(Ic-67)],Oa=If[Ef[6789]+1],Xb[788]or Ge(27691,788,114032)elseif Oa>=20393 then if Oa>20393 then ne=ne+Ic;Ef=ne if ne~=ne then Oa=Xb[3431]or Ge(35321,3431,1970)else Oa=Xb[-17148]or Ge(21305,-17148,74612)end else je[30376]=Ue if(md==2)then Oa=Xb[22498]or Ge(61972,22498,33516)continue else Oa=Xb[-9611]or Ge(23869,-9611,128196)continue end Oa=Xb[32325]or Ge(26359,32325,51261)end else tf,bc=je[17180],Ra[17180];bc=nf('b\127\188^','oY')..bc;ne='';se_,Oa,Ic,Ef=50,1820,(#tf-1)+50,1 end elseif Oa<19807 then if Oa<=18735 then if Oa<18200 then je,Ue,Cc=vb if(oc(je)~=nf('\169\155/\170\187\135.\167','\207\238A\201'))then Oa=Xb[-29400]or Ge(58815,-29400,20791)continue else Oa=Xb[-9770]or Ge(42238,-9770,79974)continue end Oa=Xb[1737]or Ge(38532,1737,68056)elseif Oa>18200 then ha+=Ra[8027];Oa=Xb[-25834]or Ge(18199,-25834,125555)else H[Ra[52532]],Oa=H[Ra[33179]]+H[Ra[6789]],Xb[21438]or Ge(768,21438,110152)end else Ma=Ef[6789];E=vb[Ma]if(E==nil)then Oa=Xb[22979]or Ge(2222,22979,52665)continue else Oa=Xb[-16423]or Ge(54251,-16423,78468)continue end Oa=40587 end elseif Oa>=20092 then if Oa>20092 then Oa,H[Ra[33179]]=Xb[-7213]or Ge(37236,-7213,71708),Ra[30376]else Ic=bc if ne~=ne then Oa=Xb[-7267]or Ge(44855,-7267,49747)else Oa=Xb[-22716]or Ge(749,-22716,92601)end end elseif Oa>19807 then ha+=1;Oa=Xb[-23839]or Ge(21128,-23839,121024)else if(Ec>40)then Oa=Xb[9685]or Ge(39315,9685,73377)continue else Oa=Xb[24299]or Ge(21932,24299,120740)continue end Oa=Xb[15778]or Ge(2100,15778,107356)end elseif Oa>=31969 then if Oa>=34029 then if Oa>=36140 then if Oa>37410 then if(Ec>217)then Oa=Xb[-32049]or Ge(17955,-32049,91852)continue else Oa=Xb[24920]or Ge(32317,24920,107439)continue end Oa=Xb[-21190]or Ge(58640,-21190,66680)elseif Oa<36202 then if(Ec>100)then Oa=Xb[9111]or Ge(46478,9111,64337)continue else Oa=Xb[-31831]or Ge(48353,-31831,80244)continue end Oa=Xb[-53]or Ge(26239,-53,99819)elseif Oa>36202 then Rb,ha,vb,_f,Oa,ac=-1,1,re_({},{[nf('>\175\193\14\148\201','a\240\172')]=nf('(-','^')}),re_({},{[nf('\154p\201\170K\193','\197/\164')]=nf('\27\3','p')}),Xb[23140]or Ge(10152,23140,83360),false else if(md==3)then Oa=Xb[-2605]or Ge(31162,-2605,80074)continue else Oa=Xb[24835]or Ge(35696,24835,73687)continue end Oa=Xb[-6008]or Ge(32083,-6008,124406)end elseif Oa<35292 then if Oa<=34029 then if(Ec>229)then Oa=Xb[13300]or Ge(49297,13300,73357)continue else Oa=Xb[29537]or Ge(45388,29537,7872)continue end Oa=Xb[-26513]or Ge(61139,-26513,97471)else ha-=1;V[ha],Oa={[63564]=4,[33179]=hc(Ra[33179],216),[6789]=hc(Ra[6789],145),[52532]=0},Xb[-6597]or Ge(51879,-6597,90275)end elseif Oa>35292 then if Ec>67 then Oa=Xb[-17444]or Ge(31525,-17444,102273)continue else Oa=Xb[30462]or Ge(64491,30462,37604)continue end Oa=Xb[13365]or Ge(53363,13365,88863)else Oa,H[Ra[6789]]=Xb[-10164]or Ge(11079,-10164,83459),H[Ra[52532]]+Ra[30376]end elseif Oa>33248 then if Oa<33807 then ha+=Ra[8027];Oa=Xb[25079]or Ge(57802,25079,68486)elseif Oa<=33807 then ha-=1;V[ha],Oa={[63564]=16,[33179]=hc(Ra[33179],72),[6789]=hc(Ra[6789],157),[52532]=0},Xb[-32620]or Ge(30101,-32620,129021)else if Ec>4 then Oa=Xb[-14844]or Ge(61106,-14844,22380)continue else Oa=Xb[31632]or Ge(57350,31632,58254)continue end Oa=Xb[-18316]or Ge(3064,-18316,106896)end elseif Oa<=33239 then if Oa>31998 then Oa,q=Xb[27822]or Ge(29740,27822,109569),q..Ca(hc(Of(Ue,(se_-105)+1),Of(Cc,(se_-105)%#Cc+1)))elseif Oa<=31969 then ha+=Ra[8027];Oa=Xb[8909]or Ge(52490,8909,89158)else bc,Oa=Ue-1,Xb[-14285]or Ge(9858,-14285,64731)end else ha+=Ra[8027];Oa=Xb[-31379]or Ge(3813,-31379,105837)end elseif Oa>30211 then if Oa<=30625 then if Oa>30550 then if(H[Ra[33179]])then Oa=Xb[23786]or Ge(47064,23786,78230)continue else Oa=Xb[21752]or Ge(17656,21752,124560)continue end Oa=Xb[30609]or Ge(12948,30609,112892)elseif Oa<30290 then H[Ra[6789]],Oa=H[Ra[33179]]/Ra[30376],Xb[-20746]or Ge(51406,-20746,90778)elseif Oa>30290 then if(Ec>223)then Oa=Xb[23690]or Ge(5245,23690,97659)continue else Oa=Xb[-9227]or Ge(41294,-9227,40710)continue end Oa=Xb[7513]or Ge(16511,7513,125931)else md,je=nil,H[Ra[33179]];md=ld(je)==nf("\r\'J\201\31;K\196",'kR$\170')if not md then Oa=Xb[21590]or Ge(53214,21590,45313)continue end Oa=Xb[11522]or Ge(10977,11522,92058)end elseif Oa<=31405 then if(Ec>31)then Oa=Xb[-28660]or Ge(37373,-28660,41264)continue else Oa=Xb[-24178]or Ge(11278,-24178,50343)continue end Oa=Xb[2988]or Ge(35803,2988,74167)else md[30376]=je;Oa,Ra[63564]=Xb[27692]or Ge(27506,27692,99870),137 end elseif Oa<=28600 then if Oa>28183 then if Oa<=28370 then if Ec>150 then Oa=Xb[26134]or Ge(52504,26134,80085)continue else Oa=Xb[7152]or Ge(28946,7152,113391)continue end Oa=Xb[-31856]or Ge(28402,-31856,130206)else md,je,Ue=Ra[30376],Ra[43845],H[Ra[33179]]if(Ue==md)~=je then Oa=Xb[-22386]or Ge(23369,-22386,101440)continue else Oa=Xb[31671]or Ge(12994,31671,61989)continue end Oa=Xb[-4739]or Ge(6672,-4739,102776)end elseif Oa>28158 then je,Ue,Cc=ue(je);Oa=Xb[11657]or Ge(3341,11657,102737)elseif Oa<=28120 then if(Ec>191)then Oa=Xb[-20157]or Ge(50055,-20157,91424)continue else Oa=Xb[-32383]or Ge(62619,-32383,61943)continue end Oa=Xb[-1795]or Ge(57943,-1795,67891)else Cc,Oa=nil,57241 end elseif Oa>=29806 then if Oa<=29806 then if Ec>186 then Oa=Xb[-30168]or Ge(10266,-30168,42614)continue else Oa=Xb[22481]or Ge(11652,22481,92142)continue end Oa=Xb[-25971]or Ge(59824,-25971,66520)else md=If[Ra[6789]+1];Oa,H[Ra[33179]]=Xb[-22818]or Ge(8536,-22818,84016),md[1][md[3]]end else ha-=1;V[ha],Oa={[63564]=242,[33179]=hc(Ra[33179],3),[6789]=hc(Ra[6789],238),[52532]=0},Xb[8876]or Ge(25199,8876,100859)end elseif Oa>8337 then if Oa<12776 then if Oa<10744 then if Oa<=9540 then if Oa<=9493 then if Oa>=9412 then if Oa>9412 then ha+=Ra[8027];Oa=Xb[-22600]or Ge(11517,-22600,114325)else if(Ec>166)then Oa=Xb[-4619]or Ge(64990,-4619,61724)continue else Oa=Xb[25136]or Ge(48427,25136,551)continue end Oa=Xb[-28174]or Ge(40714,-28174,70214)end else if Ec>151 then Oa=Xb[19582]or Ge(22651,19582,130938)continue else Oa=Xb[-207]or Ge(40401,-207,36869)continue end Oa=Xb[19651]or Ge(17687,19651,124019)end else md,je=Ra[33179],Ra[6789];Ue=je-1 if Ue==-1 then Oa=Xb[-21067]or Ge(3942,-21067,91400)continue else Oa=Xb[-18539]or Ge(5131,-18539,114353)continue end Oa=450 end elseif Oa>=10024 then if Oa<=10024 then Ra=V[ha];Ec,Oa=Ra[63564],Xb[-31133]or Ge(21018,-31133,101792)else c(tf);Oa=Xb[-26097]or Ge(614,-26097,82091)end else md=y(je)if(md~=nil and md[nf('\231]G\204g\\','\184\2.')]~=nil)then Oa=Xb[-9844]or Ge(48606,-9844,28553)continue else Oa=Xb[-24531]or Ge(42011,-24531,50996)continue end Oa=Xb[5598]or Ge(46380,5598,76080)end elseif Oa>=11758 then if Oa>12304 then ha+=Ra[8027];Oa=Xb[-31611]or Ge(22552,-31611,119664)elseif Oa<11913 then ha+=1;Oa=Xb[27454]or Ge(6819,27454,102575)elseif Oa<=11913 then if(Ic>=0 and ne>se_)or((Ic<0 or Ic~=Ic)and ne<se_)then Oa=Xb[3311]or Ge(14590,3311,38539)else Oa=50030 end else Ra[63564]=143;ha+=1;Oa=Xb[3956]or Ge(46286,3956,79514)end elseif Oa<=10890 then if Oa>10744 then H[Ra[33179]],Oa=Ue[Ra[1438]][Ra[17180]],Xb[-20881]or Ge(283,-20881,106766)else ne=ne+Ic;Ef=ne if ne~=ne then Oa=Xb[-7201]or Ge(7370,-7201,83321)else Oa=61231 end end else if(oc(je)==nf('?\133)\136.','K\228'))then Oa=Xb[-22773]or Ge(9474,-22773,54200)continue else Oa=Xb[-17402]or Ge(42287,-17402,1469)continue end Oa=Xb[-7031]or Ge(38284,-7031,21854)end elseif Oa>15462 then if Oa>=16344 then if Oa>=17517 then if Oa<=17517 then E={[3]=Ma,[1]=H};Oa,vb[Ma]=Xb[12916]or Ge(63379,12916,52764),E else ha+=1;Oa=Xb[24866]or Ge(24996,24866,101292)end elseif Oa<=16344 then if(ne>=0 and tf>bc)or((ne<0 or ne~=ne)and tf<bc)then Oa=Xb[24830]or Ge(7654,24830,93263)else Oa=Xb[13505]or Ge(48671,13505,41692)end else Ue,Oa=tf,Xb[-3136]or Ge(42007,-3136,27318)continue end elseif Oa>=15742 then if Oa<=15742 then if(Ec>30)then Oa=Xb[28626]or Ge(65236,28626,96848)continue else Oa=Xb[17504]or Ge(12497,17504,95625)continue end Oa=Xb[1681]or Ge(32364,1681,126436)else ha+=1;Oa=Xb[21232]or Ge(17769,21232,124129)end else Oa=Xb[15972]or Ge(45232,15972,42685)continue end elseif Oa<13823 then if Oa>=13448 then if Oa<=13448 then ha+=Ra[8027];Oa=Xb[-20719]or Ge(51752,-20719,90400)else if(not H[Ra[33179]])then Oa=Xb[-14958]or Ge(6944,-14958,67771)continue else Oa=Xb[-27698]or Ge(27568,-27698,98776)continue end Oa=Xb[6271]or Ge(35179,6271,73959)end elseif Oa>12776 then je,Ue,Cc=md[nf('\242\b\209\217\50\202','\173W\184')](je);Oa=Xb[-31442]or Ge(15673,-31442,106797)else q,tf=je(Ue,Cc);Cc=q if Cc==nil then Oa=Xb[28032]or Ge(25577,28032,114008)else Oa=Xb[18514]or Ge(27459,18514,87773)end end elseif Oa>=15203 then if Oa>15203 then se_=se_+Ef;s_=se_ if se_~=se_ then Oa=Xb[-26117]or Ge(10445,-26117,45017)else Oa=Xb[-26918]or Ge(10319,-26918,97179)end else ja(tf,1,bc,md,H);Oa=Xb[-12079]or Ge(18726,-12079,122914)end elseif Oa<=13823 then if(Ra[52532]==200)then Oa=Xb[15364]or Ge(26797,15364,94790)continue else Oa=Xb[14011]or Ge(3933,14011,106193)continue end Oa=Xb[4683]or Ge(9509,4683,82989)else if Ec>53 then Oa=Xb[9940]or Ge(35992,9940,74311)continue else Oa=Xb[1448]or Ge(58180,1448,53656)continue end Oa=Xb[11705]or Ge(52199,11705,91747)end elseif Oa<=4402 then if Oa>2296 then if Oa>3983 then if Oa<=4317 then if Oa>4206 then md,je,Ue=Ra[52532],Ra[6789],Ra[30376];Cc=H[je];H[md+1]=Cc;H[md]=Cc[Ue];ha+=1;Oa=Xb[5826]or Ge(27010,5826,99278)else if Ra[52532]==145 then Oa=Xb[19879]or Ge(39497,19879,76373)continue elseif Ra[52532]==204 then Oa=Xb[13662]or Ge(65029,13662,92741)continue elseif(Ra[52532]==250)then Oa=Xb[-12925]or Ge(6449,-12925,69946)continue else Oa=Xb[1502]or Ge(53113,1502,92015)continue end Oa=Xb[-6365]or Ge(24817,-6365,101017)end else H[Ra[52532]],Oa=H[Ra[6789]]-H[Ra[33179]],Xb[-9937]or Ge(39027,-9937,70431)end elseif Oa<3654 then if Oa>2916 then Cc=H[md];q,bc,Oa,tf=md+1,1,Xb[32724]or Ge(45134,32724,39822),je else ja(H,je,je+Ue-1,Ra[30606],H[md]);ha+=1;Oa=Xb[28327]or Ge(11667,28327,114687)end elseif Oa>3654 then Cc,Oa=bc,44016 continue else if Ra[52532]==176 then Oa=Xb[18784]or Ge(23275,18784,106054)continue else Oa=Xb[21796]or Ge(58025,21796,35422)continue end Oa=Xb[15462]or Ge(16937,15462,125217)end elseif Oa<1709 then if Oa<562 then if Oa>14 then return aa(H,md,md+Cc-1)else Cc=(function(...)for Da,Fb,x,Db,Wc,h,sf,Wb,ee,F,eb,Ba,qd,wc,Sd,sd,Yd,Md,ob,Cd in...do Ee{Da,Fb,x,Db,Wc,h,sf,Wb,ee,F,eb,Ba,qd,wc,Sd,sd,Yd,Md,ob,Cd}end Ee(-2)end);_f[Ue],Oa=_b(Cc),Xb[10745]or Ge(40701,10745,47958)end elseif Oa<=562 then je[1438]=Cc;Oa,q=Xb[12378]or Ge(16879,12378,68790),nil else Oa,q=42412,ne continue end elseif Oa>1848 then if Oa<=2128 then if(Ec>231)then Oa=Xb[16521]or Ge(1062,16521,51319)continue else Oa=Xb[-18511]or Ge(8096,-18511,97327)continue end Oa=Xb[-26940]or Ge(24417,-26940,119529)else Oa,H[Ra[33179]][H[Ra[52532]]]=Xb[-20865]or Ge(60640,-20865,98152),H[Ra[6789]]end elseif Oa>1820 then if H[Ra[33179]]==H[Ra[30606]]then Oa=Xb[18353]or Ge(57648,18353,19314)continue else Oa=Xb[20715]or Ge(73,20715,55841)continue end Oa=Xb[-22108]or Ge(33937,-22108,75513)elseif Oa<=1709 then Cc,Oa=nil,63381 else s_=se_ if Ic~=Ic then Oa=Xb[20266]or Ge(18986,20266,53882)else Oa=Xb[-19767]or Ge(5782,-19767,85362)end end elseif Oa>6709 then if Oa<=7863 then if Oa>=7709 then if Oa>7709 then q={Ue(H[md+1],H[md+2])};ja(q,1,je,md+3,H)if H[md+3]~=nil then Oa=Xb[-19908]or Ge(23611,-19908,103302)continue else Oa=Xb[-5847]or Ge(21177,-5847,66165)continue end Oa=Xb[-9941]or Ge(12400,-9941,113432)else if Ec>117 then Oa=Xb[-28985]or Ge(7379,-28985,59952)continue else Oa=Xb[-16169]or Ge(57078,-16169,86772)continue end Oa=Xb[-29236]or Ge(4210,-29236,105246)end elseif Oa>7452 then ne,Oa=ne..Ca(hc(Of(tf,(s_-50)+1),Of(bc,(s_-50)%#bc+1))),Xb[29533]or Ge(33530,29533,24686)else md,je,Ue=hc(Ra[6789],229),hc(Ra[52532],225),hc(Ra[33179],50);Cc,q=je==0 and Rb-md or je-1,H[md];tf,bc=ef(q(aa(H,md+1,md+Cc)))if Ue==0 then Oa=Xb[28797]or Ge(22072,28797,125366)continue else Oa=Xb[-17976]or Ge(1501,-17976,73253)continue end Oa=Xb[25243]or Ge(21716,25243,69257)end elseif Oa<=8165 then if Oa>8024 then c'';Oa=Xb[-5790]or Ge(34153,-5790,51986)else ha-=1;V[ha],Oa={[63564]=151,[33179]=hc(Ra[33179],113),[6789]=hc(Ra[6789],78),[52532]=0},Xb[22291]or Ge(53965,22291,88197)end else if(bc>=0 and q>tf)or((bc<0 or bc~=bc)and q<tf)then Oa=Xb[5961]or Ge(36260,5961,69818)else Oa=Xb[9748]or Ge(40039,9748,55872)end end elseif Oa>6119 then if Oa>6254 then bc=Cc if q~=q then Oa=Xb[-15477]or Ge(50666,-15477,91238)else Oa=Xb[21789]or Ge(7119,21789,94853)end elseif Oa<=6146 then H[Ra[33179]],Oa=Ue,Xb[12103]or Ge(9173,12103,83828)else md=Ra[30376];H[Ra[52532]]=H[Ra[6789]][md];ha+=1;Oa=Xb[27097]or Ge(60073,27097,65697)end elseif Oa>=5490 then if Oa<6043 then H[Ra[52532]]=Ra[6789]==1;ha+=Ra[33179];Oa=Xb[-8525]or Ge(49332,-8525,92892)elseif Oa<=6043 then if s_==1 then Oa=Xb[24042]or Ge(18605,24042,67813)continue elseif s_==2 then Oa=Xb[-26168]or Ge(40807,-26168,44409)continue end Oa=Xb[32707]or Ge(49270,32707,76067)else if(Ec>134)then Oa=Xb[-17400]or Ge(40574,-17400,77327)continue else Oa=Xb[-5916]or Ge(64720,-5916,96386)continue end Oa=Xb[-2302]or Ge(18138,-2302,124086)end elseif Oa<=5209 then ha+=Ra[8027];Oa=Xb[21462]or Ge(50604,21462,92068)else ha-=1;Oa,V[ha]=Xb[-21968]or Ge(29843,-21968,128767),{[63564]=191,[33179]=hc(Ra[33179],114),[6789]=hc(Ra[6789],86),[52532]=0}end elseif Oa>51782 then if Oa>=61156 then if Oa<=63250 then if Oa<=61921 then if Oa>61471 then if Oa>61896 then Ef=ne if se_~=se_ then Oa=Xb[10309]or Ge(18186,10309,106553)else Oa=61231 end elseif Oa>61790 then if Ec>79 then Oa=Xb[11343]or Ge(39335,11343,64097)continue else Oa=Xb[-19620]or Ge(12810,-19620,70293)continue end Oa=Xb[10811]or Ge(6929,10811,104057)elseif Oa>61558 then Cc=Cc+tf;bc=Cc if Cc~=Cc then Oa=Xb[19586]or Ge(5428,19586,103516)else Oa=Xb[-24474]or Ge(9244,-24474,73846)end else if(se_>=0 and bc>ne)or((se_<0 or se_~=se_)and bc<ne)then Oa=Xb[5577]or Ge(20245,5577,70197)else Oa=Xb[16001]or Ge(49145,16001,37466)end end elseif Oa<=61405 then if Oa>61231 then md=Ra[30376];H[Ra[52532]][md]=H[Ra[33179]];ha+=1;Oa=Xb[27478]or Ge(63337,27478,96993)elseif Oa>61156 then if(Ic>=0 and ne>se_)or((Ic<0 or Ic~=Ic)and ne<se_)then Oa=Xb[18761]or Ge(985,18761,92052)else Oa=Xb[5704]or Ge(35842,5704,57379)end else Oa,H[Ra[33179]]=Xb[21088]or Ge(11106,21088,83694),H[Ra[6789]]end elseif Oa>61452 then if(Ec>236)then Oa=Xb[-6112]or Ge(35881,-6112,70278)continue else Oa=Xb[-29343]or Ge(11053,-29343,44295)continue end Oa=Xb[-6861]or Ge(53670,-6861,88994)else md,je=Ra[39919],Ra[30376];Ue=e_[je]or Vc[33918][je]if md==1 then Oa=Xb[-26468]or Ge(10283,-26468,40659)continue elseif(md==2)then Oa=Xb[-18859]or Ge(50725,-18859,90989)continue else Oa=Xb[8543]or Ge(59121,8543,61085)continue end Oa=Xb[-21935]or Ge(32048,-21935,124183)end elseif Oa<62301 then if Oa>=62192 then if Oa>62192 then if(oc(je)==nf('\nT\28Y\27','~5'))then Oa=Xb[5182]or Ge(851,5182,78784)continue else Oa=Xb[-3935]or Ge(28322,-3935,127418)continue end Oa=Xb[-4781]or Ge(47631,-4781,76375)else if Ra[52532]==51 then Oa=Xb[-18613]or Ge(41558,-18613,53485)continue else Oa=Xb[24115]or Ge(24439,24115,119620)continue end Oa=Xb[26749]or Ge(14829,26749,110693)end else H[Ra[33179]],Oa=nil,Xb[-25322]or Ge(64762,-25322,93846)end elseif Oa>62465 then if Ra[52532]==249 then Oa=Xb[-27650]or Ge(4315,-27650,62851)continue else Oa=Xb[-6168]or Ge(60872,-6168,77840)continue end Oa=Xb[-2534]or Ge(18127,-2534,124059)elseif Oa<=62318 then if Oa>62301 then if not ac then Oa=Xb[-3899]or Ge(1498,-3899,61512)continue end Oa=48832 else ha+=1;Oa=Xb[25228]or Ge(44667,25228,81175)end else md,je,Oa=V[ha],nil,27753 end elseif Oa<=64102 then if Oa<63751 then if Oa>63419 then if Ec>193 then Oa=Xb[11328]or Ge(36721,11328,37661)continue else Oa=Xb[1470]or Ge(43257,1470,18672)continue end Oa=Xb[-1698]or Ge(3025,-1698,106937)elseif Oa>=63381 then if Oa>63381 then Ef=V[ha];ha+=1;s_=Ef[33179]if(s_==0)then Oa=Xb[-19589]or Ge(54891,-19589,68434)continue else Oa=Xb[26624]or Ge(33020,26624,1721)continue end Oa=Xb[5400]or Ge(43114,5400,33079)else q,tf=je[1438],Ra[1438];tf=nf('\191\163a\130','\178\133')..tf;bc='';ne,Ic,se_,Oa=42,1,(#q-1)+42,61921 end else ha+=Ra[8027];Oa=Xb[29366]or Ge(8097,29366,101801)end elseif Oa>64037 then ha-=1;V[ha],Oa={[63564]=116,[33179]=hc(Ra[33179],230),[6789]=hc(Ra[6789],123),[52532]=0},Xb[20434]or Ge(63706,20434,94902)elseif Oa<63918 then _f[Ra]=nil;ha+=1;Oa=Xb[23929]or Ge(59531,23929,66247)elseif Oa<=63918 then Oa,H[Ra[33179]]=Xb[-26758]or Ge(45601,-26758,79584),Ue[Ra[1438]]else ha+=1;Oa=Xb[18179]or Ge(24865,18179,100393)end elseif Oa<=65122 then if Oa<64989 then if Oa<=64159 then q,tf=Nf(_f[Ra],Ue,H[md+1],H[md+2])if not q then Oa=Xb[7108]or Ge(10037,7108,38473)continue end Oa=Xb[-23967]or Ge(15101,-23967,84062)else ha+=1;Oa=Xb[6692]or Ge(59102,6692,66698)end elseif Oa>64989 then q,tf=je(Ue,Cc);Cc=q if Cc==nil then Oa=Xb[16245]or Ge(52998,16245,90690)else Oa=Xb[29409]or Ge(59358,29409,77500)end else md=y(je)if md~=nil and md[nf('\145\142|\186\180g','\206\209\21')]~=nil then Oa=Xb[-2115]or Ge(54294,-2115,77425)continue elseif(oc(je)==nf('\233\193\255\204\248','\157\160'))then Oa=Xb[-32071]or Ge(14741,-32071,79887)continue else Oa=Xb[-12511]or Ge(46839,-12511,36162)continue end Oa=Xb[-14899]or Ge(19477,-14899,112428)end elseif Oa<=65124 then H[Ra[6789]],Oa=Cc,Xb[-4315]or Ge(55991,-4315,86227)else if Ec>238 then Oa=Xb[25892]or Ge(18414,25892,96451)continue else Oa=Xb[-30133]or Ge(24382,-30133,81436)continue end Oa=Xb[24448]or Ge(19681,24448,122729)end elseif Oa<55754 then if Oa>=52856 then if Oa>=54923 then if Oa<=55351 then if Oa>55280 then je,Ue,Cc=md[nf(' \251\136\v\193\147','\127\164\225')](je);Oa=Xb[-15031]or Ge(174,-15031,59452)elseif Oa>54923 then if(Ec>143)then Oa=Xb[-25810]or Ge(45854,-25810,46469)continue else Oa=Xb[10079]or Ge(36167,10079,72722)continue end Oa=Xb[5002]or Ge(5258,5002,104134)else if Ec>135 then Oa=Xb[-24224]or Ge(42688,-24224,50312)continue else Oa=Xb[-7818]or Ge(18967,-7818,50047)continue end Oa=Xb[13882]or Ge(14666,13882,110598)end else sa(tf);Oa,_f[q]=Xb[-6543]or Ge(28884,-6543,86883),nil end elseif Oa>53375 then md=y(je)if(md~=nil and md[nf('\239!\171\196\27\176','\176~\194')]~=nil)then Oa=Xb[6369]or Ge(52191,6369,97660)continue else Oa=Xb[21517]or Ge(18501,21517,75065)continue end Oa=Xb[21954]or Ge(59532,21954,16478)elseif Oa>52856 then ha+=Ra[8027];Oa=Xb[-19457]or Ge(13126,-19457,114178)else if(tf[3]>=Ra[33179])then Oa=Xb[-18165]or Ge(29178,-18165,110613)continue else Oa=Xb[13014]or Ge(10782,13014,113222)continue end Oa=Xb[13721]or Ge(3913,13721,104221)end elseif Oa>52160 then if Oa>=52521 then if Oa>52521 then if Ec>12 then Oa=Xb[28557]or Ge(16593,28557,49593)continue else Oa=Xb[-22735]or Ge(27710,-22735,93734)continue end Oa=Xb[-17645]or Ge(14192,-17645,113176)else H[Ra[6789]],Oa=H[Ra[33179]]*Ra[30376],Xb[-15619]or Ge(34006,-15619,75442)end else c'';Oa=Xb[23844]or Ge(8688,23844,43875)end elseif Oa<=52112 then if Oa>51965 then if Ec>176 then Oa=Xb[-25774]or Ge(4... (осталось: 48 кб)
-message.txt
+local Players = game:GetService("Players")
+local RunService = game:GetService("RunService")
+local UserInputService = game:GetService("UserInputService")
+local Workspace = game:GetService("Workspace")
+local ReplicatedStorage = game:GetService("ReplicatedStorage")
+local Lighting = game:GetService("Lighting")
+local CoreGui = game:GetService("CoreGui")
+
+local player = Players.LocalPlayer
+local camera = Workspace.CurrentCamera
+
+setthreadidentity(2)
+for i, v in pairs(getgc(true)) do
+    if typeof(v) == "table" then
+        local DetectFunc = rawget(v, "Detected")
+        local KillFunc = rawget(v, "Kill")
+        if type(DetectFunc) == "function" then
+            hookfunction(DetectFunc, function() return true end)
+        end
+        if type(KillFunc) == "function" then
+            hookfunction(KillFunc, function() return nil end)
+        end
+    end
+end
+setthreadidentity(7)
+
+task.spawn(function()
+    while task.wait(0.2) do
+        if player:FindFirstChild("Recoil") then
+            player.Recoil:Destroy()
+        end
+    end
+end)
+
+local infAmmoEnabled = true
+local ammoConnections = {}
+
+local function FindWeaponInWorkspace(tool)
+    if not tool then return nil end
+    local playerFolder = workspace:FindFirstChild(player.Name)
+    if not playerFolder then return nil end
+    return playerFolder:FindFirstChild(tool.Name, true)
+end
+
+local function IsWeaponReady(weapon)
+    if not weapon then return false end
+    if not weapon:FindFirstChild("GunScript") then return false end
+    if not weapon.GunScript:FindFirstChild("ClientAmmo") then return false end
+    return true
+end
+
+local function freezeAmmo(weapon)
+    if weapon and weapon:FindFirstChild("GunScript") then
+        local gunScript = weapon.GunScript
+        if gunScript:FindFirstChild("ClientAmmo") then
+            local ammo = gunScript.ClientAmmo
+            local orig = ammo.Value
+            local conn = ammo.Changed:Connect(function()
+                if ammo.Value ~= orig then ammo.Value = orig end
+            end)
+            table.insert(ammoConnections, conn)
+        end
+    end
+end
+
+local function forceReload(character)
+    if not character then return end
+    for _, tool in ipairs(character:GetDescendants()) do
+        if tool:IsA("Tool") then
+            local weapon = FindWeaponInWorkspace(tool)
+            if not weapon then continue end
+            local reloadEvent = weapon:FindFirstChild("ReloadEvent")
+            if not reloadEvent then continue end
+            local function fireReload(args)
+                reloadEvent:FireServer(unpack(args, 1, table.maxn(args)))
+            end
+            fireReload({[11] = "startReload"})
+            fireReload({[14] = 0, [11] = "magMath"})
+            fireReload({[14] = 3, [11] = "insertMag"})
+            fireReload({[14] = 3, [11] = "stopReload"})
+        end
+    end
+end
+
+local function processWeapons(character)
+    if not character then return end
+    for _, tool in ipairs(character:GetDescendants()) do
+        if tool:IsA("Tool") then
+            local weapon = FindWeaponInWorkspace(tool)
+            if not weapon then continue end
+            if IsWeaponReady(weapon) and infAmmoEnabled then
+                freezeAmmo(weapon)
+            end
+        end
+    end
+    if infAmmoEnabled then forceReload(character) end
+end
+
+local function ammoLoop()
+    while infAmmoEnabled do
+        local character = player.Character or player.CharacterAdded:Wait()
+        processWeapons(character)
+        task.wait(0.1)
+    end
+end
+
+player.CharacterAdded:Connect(function(character)
+    task.wait(1)
+    if infAmmoEnabled then processWeapons(character) end
+end)
+task.spawn(ammoLoop)
+
+-- Gun Mods Config
+local MOD_CONFIG = {
+
+
+PerfectAccuracy = {params = {"scatter"}, active_value = 999, default_value = 1},
+    InstantEquip = {params = {"EquipSpeed"}, active_value = 0.0000001, default_value = 1},
+    PerfectFirerate = {params = {"waittime"}, active_value = 0.00001, default_value = 1},
+    ReloadSpeed = {params = {"ReloadSpeed", "ReloadSpeed2"}, active_value = 0.00001, default_value = 1},
+    NoAimSway = {params = {"AimSway"}, active_value = 0.00001, default_value = 1},
+    FastAiming = {params = {"AimSpeed"}, active_value = 0.00001, default_value = 1}
+}
+
+local ModStates = {}
+local OriginalValues = {}
+local TrackedTools = {}
+
+for modName in pairs(MOD_CONFIG) do
+    ModStates[modName] = false 
+end
+
+local function SetupToolStructure(tool)
+    if not tool or not tool:IsA("Tool") then return false end
+    local attachmentFolder = tool:FindFirstChild("AttachmentFolder")
+    if not attachmentFolder then return false end
+    local innerTool = attachmentFolder:FindFirstChild("Tool") or Instance.new("Tool")
+    innerTool.Name = "Tool"
+    innerTool.Parent = attachmentFolder
+    if not innerTool:FindFirstChild("IsAttachment") then
+        local isAttachment = Instance.new("StringValue")
+        isAttachment.Name = "IsAttachment"
+        isAttachment.Value = "Gripp"
+        isAttachment.Parent = innerTool
+    end
+    local statsFolder = innerTool:FindFirstChild("Stats") or Instance.new("Folder")
+    statsFolder.Name = "Stats"
+    statsFolder.Parent = innerTool
+    return true
+end
+
+local function ProcessWeapon(tool)
+    if not SetupToolStructure(tool) then return end
+    local innerTool = tool.AttachmentFolder:FindFirstChild("Tool")
+    if not innerTool then return end
+    local statsFolder = innerTool:FindFirstChild("Stats")
+    if not statsFolder then return end
+    
+    for modName, config in pairs(MOD_CONFIG) do
+        for _, paramName in ipairs(config.params) do
+            if not OriginalValues[tool] then OriginalValues[tool] = {} end
+            if OriginalValues[tool][paramName] == nil then
+                local currentValue = statsFolder:FindFirstChild(paramName)
+                OriginalValues[tool][paramName] = currentValue and currentValue.Value or config.default_value
+            end
+            local valueToSet = ModStates[modName] and config.active_value or OriginalValues[tool][paramName]
+            local param = statsFolder:FindFirstChild(paramName) or Instance.new("NumberValue")
+            param.Name = paramName
+            param.Value = valueToSet
+            param.Parent = statsFolder
+        end
+    end
+end
+
+local function GetValidPlayerTools()
+    local tools = {}
+    if player.Character then
+        for _, item in ipairs(player.Character:GetDescendants()) do
+            if item:IsA("Tool") and item:FindFirstChild("AttachmentFolder") then
+                table.insert(tools, item)
+            end
+        end
+    end
+    local backpack = player:FindFirstChild("Backpack")
+    if backpack then
+        for _, item in ipairs(backpack:GetChildren()) do
+            if item:IsA("Tool") and item:FindFirstChild("AttachmentFolder") then
+                table.insert(tools, item)
+            end
+        end
+    end
+    return tools
+end
+
+local function ApplyModifications()
+    for _, tool in ipairs(GetValidPlayerTools()) do
+        ProcessWeapon(tool)
+    end
+end
+
+local function CheckForNewTools()
+    local currentTools = GetValidPlayerTools()
+    for _, tool in ipairs(currentTools) do
+        if not TrackedTools[tool] then
+            TrackedTools[tool] = true
+            ProcessWeapon(tool)
+        end
+    end
+    for tool in pairs(TrackedTools) do
+        if not tool:IsDescendantOf(game) then
+            TrackedTools[tool] = nil
+        end
+    end
+end
+
+task.spawn(function()
+    while task.wait(1) do
+        CheckForNewTools()
+    end
+end)
+
+player.CharacterAdded:Connect(function(character)
+    task.wait(1)
+    ApplyModifications()
+end)
+
+local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
+
+local Window = Rayfield:CreateWindow({
+    Name = "M5WARE TOWN",
+    LoadingTitle = "M5WAR3",
+    LoadingSubtitle = "by pavel betto",
+    ConfigurationSaving = {
+       Enabled = false,
+       FolderName = nil,
+       FileName = "TownCheat"
+    },
+    Discord = {
+       Enabled = false,
+       Invite = "noinvitelink",
+       RememberJoins = true
+    },
+    KeySystem = false
+})
+
+local CombatTab = Window:CreateTab("Combat", nil)
+local GunTab = Window:CreateTab("Gun", nil)
+local VisualTab = Window:CreateTab("Visual", nil)
+local MiscTab = Window:CreateTab("Misc", nil)
+
+local silentAimEnabled = false
+local originalIndex
+
+local function FindSilentTarget()
+    local center = Vector2.new(camera.ViewportSize.X/2, camera.ViewportSize.Y/2)
+    local bestDist = 150
+    local bestPos = nil
+    for _, p in ipairs(Players:GetPlayers()) do
+        if p ~= player and p.Character and p.Character:FindFirstChild("Head") then
+            local head = p.Character.Head
+            local pos, on = camera:WorldToViewportPoint(head.Position)
+            if on then
+                local dist = (Vector2.new(pos.X, pos.Y) - center).Magnitude
+                if dist < bestDist then
+                    bestDist = dist
+                    bestPos = head.Position
+                end
+            end
+        end
+    end
+    return bestPos
+end
+
+CombatTab:CreateSection("Combat Settings")
+
+CombatTab:CreateToggle({
+    Name = "Silent Aim",
+    CurrentValue = false,
+    Flag = "SilentAim",
+    Callback = function(state)
+        silentAimEnabled = state
+        if not originalIndex then
+            originalIndex = hookmetamethod(game, "__index", function(self, key)
+                if silentAimEnabled and self:IsA("Mouse") and key == "Hit" then
+                    local tool = player.Character and player.Character:FindFirstChildOfClass("Tool")
+                    if tool and tool:FindFirstChild("GunScript") then
+                        local target = FindSilentTarget()
+                        if target then return CFrame.new(target) end
+                    end
+                end
+                return originalIndex(self, key)
+            end)
+        end
+    end,
+})
+
+GunTab:CreateSection("Weapon Modifications")
+
+GunTab:CreateToggle({
+    Name = "Perfect Accuracy",
+    CurrentValue = false,
+    Callback = function(state)
+        ModStates.PerfectAccuracy = state
+        ApplyModifications()
+    end,
+})
+
+GunTab:CreateToggle({
+    Name = "Instant Equip",
+    CurrentValue = false,
+    Callback = function(state)
+        ModStates.InstantEquip = state
+        ApplyModifications()
+    end,
+})
+
+GunTab:CreateToggle({
+    Name = "Perfect Firerate",
+    CurrentValue = false,
+    Callback = function(state)
+        ModStates.PerfectFirerate = state
+        ApplyModifications()
+    end,
+})
+
+GunTab:CreateToggle({
+    Name = "Fast Reload",
+    CurrentValue = false,
+    Callback = function(state)
+        ModStates.ReloadSpeed = state
+        ApplyModifications()
+    end,
+})
+
+GunTab:CreateToggle({
+    Name = "No Aim Sway",
+    CurrentValue = false,
+    Callback = function(state)
+        ModStates.NoAimSway = state
+        ApplyModifications()
+    end,
+})
+
+GunTab:CreateToggle({
+    Name = "Fast Aiming",
+    CurrentValue = false,
+    Callback = function(state)
+        ModStates.FastAiming = state
+        ApplyModifications()
+    end,
+})
+
+GunTab:CreateSection("Ammo")
+
+GunTab:CreateToggle({
+    Name = "Infinite Ammo",
+    CurrentValue = true, 
+    Callback = function(state)
+        infAmmoEnabled = state
+        if not state then
+            for _, conn in ipairs(ammoConnections) do
+
+conn:Disconnect()
+            end
+            ammoConnections = {}
+        else
+            task.spawn(ammoLoop)
+            if player.Character then processWeapons(player.Character) end
+        end
+    end,
+})
+
+local autoModeEnabled = false
+local autoModeConnection = nil
+
+GunTab:CreateToggle({
+    Name = "Auto Mode",
+    CurrentValue = false,
+    Callback = function(state)
+        autoModeEnabled = state
+        local function setAutoMode(tool)
+            if not tool or not tool:IsA("Tool") then return end
+            local settingsModule = tool:FindFirstChild("Settings")
+            if settingsModule and settingsModule:IsA("ModuleScript") then
+                local success, settings = pcall(function() return require(settingsModule) end)
+                if success and type(settings) == "table" then
+                    settings.auto = state
+                end
+            end
+        end
+        local function updateTools(character)
+            if not character then return end
+            for _, tool in ipairs(character:GetChildren()) do
+                setAutoMode(tool)
+            end
+        end
+        if player.Character then updateTools(player.Character) end
+        if autoModeConnection then autoModeConnection:Disconnect() end
+        autoModeConnection = player.CharacterAdded:Connect(updateTools)
+    end,
+})
+
+VisualTab:CreateSection("ESP")
+
+local espEnabled = false
+local espCache = {}
+
+local function createHighlight(char)
+    local highlight = Instance.new("Highlight")
+    highlight.FillColor = Color3.fromRGB(171, 0, 255)
+    highlight.FillTransparency = 0.6
+    highlight.OutlineColor = Color3.fromRGB(255, 255, 255)
+    highlight.OutlineTransparency = 0.3
+    highlight.Adornee = char
+    highlight.Parent = CoreGui
+    return highlight
+end
+
+VisualTab:CreateToggle({
+    Name = "Player ESP",
+    CurrentValue = false,
+    Callback = function(state)
+        espEnabled = state
+        if state then
+            for _, p in ipairs(Players:GetPlayers()) do
+                if p ~= player and p.Character then
+                    espCache[p] = createHighlight(p.Character)
+                end
+            end
+        else
+            for _, h in pairs(espCache) do
+                h:Destroy()
+            end
+            espCache = {}
+        end
+    end,
+})
+
+Players.PlayerAdded:Connect(function(p)
+    if espEnabled then
+        task.wait(1)
+        if p ~= player and p.Character then
+            espCache[p] = createHighlight(p.Character)
+        end
+    end
+end)
+
+Players.PlayerRemoving:Connect(function(p)
+    if espCache[p] then
+        espCache[p]:Destroy()
+        espCache[p] = nil
+    end
+end)
+
+for _, p in ipairs(Players:GetPlayers()) do
+    p.CharacterAdded:Connect(function(char)
+        if espEnabled and p ~= player then
+            task.wait(0.5)
+            if espCache[p] then espCache[p]:Destroy() end
+            espCache[p] = createHighlight(char)
+        end
+    end)
+end
+
+VisualTab:CreateSection("World")
+
+local fullBrightEnabled = false
+VisualTab:CreateToggle({
+    Name = "Full Bright",
+    CurrentValue = false,
+    Callback = function(state)
+        fullBrightEnabled = state
+        if state then
+            Lighting.Brightness = 2
+            Lighting.ClockTime = 14
+            Lighting.FogEnd = 100000
+            Lighting.GlobalShadows = false
+        else
+            Lighting.Brightness = 1
+            Lighting.GlobalShadows = true
+        end
+    end,
+})
+
+local purpleLightEnabled = false
+VisualTab:CreateToggle({
+    Name = "Purple Lighting",
+    CurrentValue = false,
+    Callback = function(state)
+        purpleLightEnabled = state
+        local cc = Lighting:FindFirstChild("ColorCorrection")
+        if not cc then
+            cc = Instance.new("ColorCorrectionEffect")
+            cc.Parent = Lighting
+        end
+        cc.TintColor = state and Color3.fromRGB(171, 0, 255) or Color3.new(1, 1, 1)
+    end,
+})
+
+local skinToneEnabled = false
+local originalMaterials = {}
+
+VisualTab:CreateToggle({
+    Name = "Skin Tone",
+    CurrentValue = false,
+    Callback = function(state)
+        skinToneEnabled = state
+        if state and player.Character then
+            for _, part in ipairs(player.Character:GetDescendants()) do
+                if part:IsA("BasePart") then
+                    originalMaterials[part] = part.Material
+                    part.Material = Enum.Material.ForceField
+                    part.Color = Color3.fromRGB(171, 0, 255)
+                end
+            end
+        else
+            for part, mat in pairs(originalMaterials) do
+                if part and part.Parent then part.Material = mat end
+            end
+            originalMaterials = {}
+        end
+    end,
+})
+
+player.CharacterAdded:Connect(function()
+    if skinToneEnabled then 
+        task.wait(1)
+        for _, part in ipairs(player.Character:GetDescendants()) do
+            if part:IsA("BasePart") then
+                originalMaterials[part] = part.Material
+                part.Material = Enum.Material.ForceField
+                part.Color = Color3.fromRGB(171, 0, 255)
+            end
+        end
+    end
+end)
+
+MiscTab:CreateSection("Healing")
+
+local instaHealEnabled = false
+local healCoroutine = nil
+
+MiscTab:CreateToggle({
+    Name = "Insta Heal",
+    CurrentValue = false,
+    Callback = function(state)
+        instaHealEnabled = state
+        if healCoroutine then coroutine.close(healCoroutine) end
+        if state then
+            healCoroutine = coroutine.create(function()
+                while instaHealEnabled do
+                    if player.Character and player.Character:FindFirstChild("Medkit") then
+                        pcall(function()
+                            player.Character.Medkit.ActionMain:FireServer("heal", player.Character)
+                        end)
+                    end
+                    task.wait(0.0001)
+                end
+            end)
+            coroutine.resume(healCoroutine)
+        end
+    end,
+})
+
+local instaWrenchEnabled = false
+local wrenchCoroutine = nil
+
+MiscTab:CreateToggle({
+    Name = "Insta Wrench",
+    CurrentValue = false,
+    Callback = function(state)
+        instaWrenchEnabled = state
+        if wrenchCoroutine then coroutine.close(wrenchCoroutine) end
+        if state then
+            wrenchCoroutine = coroutine.create(function()
+                while instaWrenchEnabled do
+                    if player.Character and player.Character:FindFirstChild("Wrench") then
+                        pcall(function()
+                            player.Character.Wrench.ActionMain:FireServer("heal", player.Character)
+                        end)
+                    end
+                    task.wait(0.0001)
+                end
+            end)
+            coroutine.resume(wrenchCoroutine)
+        end
+    end,
+})
+
+local wallBangEnabled = false
+local wallbangObjects = {}
+local movedFolder = nil
+
+MiscTab:CreateToggle({
+    Name = "WallBang",
+    CurrentValue = false,
+    Callback = function(state)
+        wallBangEnabled = state
+        if state then
+            if movedFolder then movedFolder:Destroy() end
+            movedFolder = Instance.new("Folder")
+            movedFolder.Name = "WallBangObjects"
+            movedFolder.Parent = camera
+            
+            for _, obj in ipairs(workspace:GetDescendants()) do
+                if obj:IsA("BasePart") and not obj:IsDescendantOf(player.Character) then
+                    obj.Parent = movedFolder
+                    table.insert(wallbangObjects, obj)
+                end
+            end
+        else
+            for _, obj in ipairs(wallbangObjects) do
+                if obj and obj.Parent then
+                    obj.Parent = workspace
+                end
+            end
+            wallbangObjects = {}
+            if movedFolder then movedFolder:Destroy() end
+
+movedFolder = nil
+        end
+    end,
+})
+
+MiscTab:CreateSection("Movement")
+
+local flyEnabled = false
+local flyBodyVelocity = nil
+local flyConnection = nil
+
+MiscTab:CreateToggle({
+    Name = "Fly",
+    CurrentValue = false,
+    Callback = function(state)
+        flyEnabled = state
+        if state then
+            if flyConnection then flyConnection:Disconnect() end
+            flyConnection = RunService.RenderStepped:Connect(function()
+                if player.Character and player.Character:FindFirstChild("HumanoidRootPart") then
+                    local hrp = player.Character.HumanoidRootPart
+                    if not flyBodyVelocity then
+                        flyBodyVelocity = Instance.new("BodyVelocity")
+                        flyBodyVelocity.MaxForce = Vector3.new(10000, 10000, 10000)
+                    end
+                    local direction = Vector3.new()
+                    if UserInputService:IsKeyDown(Enum.KeyCode.W) then direction = direction + camera.CFrame.LookVector end
+                    if UserInputService:IsKeyDown(Enum.KeyCode.S) then direction = direction - camera.CFrame.LookVector end
+                    if UserInputService:IsKeyDown(Enum.KeyCode.A) then direction = direction - camera.CFrame.RightVector end
+                    if UserInputService:IsKeyDown(Enum.KeyCode.D) then direction = direction + camera.CFrame.RightVector end
+                    if UserInputService:IsKeyDown(Enum.KeyCode.Space) then direction = direction + Vector3.new(0, 1, 0) end
+                    if UserInputService:IsKeyDown(Enum.KeyCode.LeftControl) then direction = direction - Vector3.new(0, 1, 0) end
+                    
+                    flyBodyVelocity.Velocity = direction * 50
+                    flyBodyVelocity.Parent = hrp
+                    
+                    local humanoid = player.Character:FindFirstChild("Humanoid")
+                    if humanoid then humanoid.PlatformStand = true end
+                end
+            end)
+        else
+            if flyConnection then flyConnection:Disconnect() end
+            flyConnection = nil
+            if flyBodyVelocity then flyBodyVelocity:Destroy() flyBodyVelocity = nil end
+            if player.Character then
+                local humanoid = player.Character:FindFirstChild("Humanoid")
+                if humanoid then humanoid.PlatformStand = false end
+            end
+        end
+    end,
+})
+
+local noclipEnabled = false
+
+MiscTab:CreateToggle({
+    Name = "Noclip",
+    CurrentValue = false,
+    Callback = function(state)
+        noclipEnabled = state
+        if state then
+            task.spawn(function()
+                while noclipEnabled do
+                    if player.Character then
+                        for _, part in ipairs(player.Character:GetDescendants()) do
+                            if part:IsA("BasePart") then
+                                part.CanCollide = false
+                            end
+                        end
+                    end
+                    task.wait(0.1)
+                end
+            end)
+        else
+            if player.Character then
+                for _, part in ipairs(player.Character:GetDescendants()) do
+                    if part:IsA("BasePart") then
+                        part.CanCollide = true
+                    end
+                end
+            end
+        end
+    end,
+})
+
+MiscTab:CreateSection("Utilities")
+
+MiscTab:CreateButton({
+    Name = "Infinite Yield",
+    Callback = function()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+    end,
+})
+
+MiscTab:CreateButton({
+    Name = "No Fall Damage",
+    Callback = function()
+        local freefall = ReplicatedStorage:FindFirstChild("Freefall")
+        if freefall then freefall:Destroy() end
+        local acsEngine = ReplicatedStorage:FindFirstChild("ACS_Engine")
+        if acsEngine then
+            local events = acsEngine:FindFirstChild("Events")
+            if events then
+
+local fdmq = events:FindFirstChild("FDMG")
+                if fdmq then fdmq:Destroy() end
+            end
+        end
+    end,
+})
+
+MiscTab:CreateButton({
+    Name = "CMD-X",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/CMD-X/CMD-X/master/Source"))()
+    end,
+})
+
+Rayfield:LoadConfiguration()
